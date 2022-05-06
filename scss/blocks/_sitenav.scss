@@ -1,0 +1,73 @@
+.sitenav__item{
+    list-style-type: none;
+    font-family: 'Space Mono';
+    color: #939CAA;
+}
+
+.sitenav__list{
+    margin: 0;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.sitenav__item + .sitenav__item{
+    margin-left: 32px;
+}
+
+.sitenav__hamburger{
+    color: yellow;
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+.sitenav__hamburger-img{
+    color: #FCB72B;
+}
+
+
+@media only screen and (max-width: 640px){
+    .site-header{
+        position: relative;
+    }
+
+
+
+    .sitenav__hamburger-img{
+        display: inline-block;
+    }
+
+    .sitenav{
+        display: none;
+    }
+
+    .sitenav__hamburger{
+        margin-left: 30px;
+        width: 20px;
+        height: 20px;
+        background-image: url("../../images/bars-solid.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .site-header--open .sitenav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color: yellow;
+    }
+
+    .site-header--open .sitenav__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-header--open .sitenav__hamburger{
+        background-image: url("../../images/xmark-solid.svg");
+    }
+}
