@@ -71,3 +71,29 @@
         background-image: url("../../images/xmark-solid.svg");
     }
 }
+
+
+
+.footer-bottom__item{
+    list-style-type: none;
+    list-style: none;
+}
+
+.footer-bottom__link{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.footer-bottom__list{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-bottom__item + .footer-bottom__item{
+    margin-left: 32px;
+}

@@ -118,12 +118,8 @@
     border-color: transparent;
 }
 
-.footer-bottom__item{
-    list-style-type: none;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 25px;
-    color: #939CAA;
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    background-color:#333A44;
 }
