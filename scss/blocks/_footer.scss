@@ -1,0 +1,129 @@
+.foooter__top{
+    max-width: 1440px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../../images/footer-background.svg");
+    background-repeat: no-repeat;
+    background-color: #495567;
+}
+
+.first-btn__heading{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.446429px;
+    color: #495567;
+}
+
+.first-btn__desc{
+    margin-top: 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.892857px;
+    color: #495567;
+}
+
+.footer-top__first-btn{
+    display: flex;
+    align-items: center;
+    width: 159px;
+    height: 56px;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top__desc{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+
+.first-btn__heading{
+    margin-top: 8px;
+}
+
+.first-btn{
+    width: 91;
+    height: 60px;
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+}
+
+.footer-top__first-btn + .footer-top__first-btn{
+    margin-left: 18px;
+}
+
+.footer-top__desc{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+
+.footer-top{
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    background-color: #495567;
+}
+
+.footer-top__desc{
+    margin: 0;
+    margin-left: 165px;
+    max-width: 415px;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    height: 100%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    background-image: url(../../images/footer-background-img.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-top__desc{
+    padding: 102px 0;
+}
+
+.btn-footer{
+    margin-left: 336px;
+}
+
+.footer-top__first-btn{
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.footer-bottom__item{
+    list-style-type: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
